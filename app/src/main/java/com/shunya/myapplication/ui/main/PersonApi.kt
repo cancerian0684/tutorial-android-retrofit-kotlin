@@ -9,7 +9,7 @@ import retrofit2.http.GET
  * @author Munish Chandel
  */
 
-interface EmployeeApi {
+interface PersonApi {
 
     @GET("/api/users/2")
     suspend fun getPerson(): Response<ServiceResponse<Person>>
